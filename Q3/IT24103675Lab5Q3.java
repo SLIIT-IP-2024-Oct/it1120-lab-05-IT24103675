@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class IT24103675Lab5Q3{
 	public static void main(String[] args){
       double ROOM_RATE_PER_DAY = 48000.0;
-      int DISCOUNT_10_DAYS = 3;
-      int DISCOUNT_20_DAYS = 5;
-      double DISCOUNT_10 = 0.1;
-      double DISCOUNT_20 = 0.2;
+    final int DISCOUNT_10_DAYS = 3;
+    final int DISCOUNT_20_DAYS = 5;
+    final double DISCOUNT_10 = 0.1;
+    final double DISCOUNT_20 = 0.2;
 
         Scanner input = new Scanner(System.in);
 
